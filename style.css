@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: #0B0121;
+    padding: 24px 0px;
+}
+
+main {
+    background: #2d0c76;
+    padding: 24px 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+
+.headerClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hedoneClass {
+    display: flex;
+    gap: 10px;
+}
+
+
+#Vaultflow_box {
+    color: #ECECEC;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.hedClass {
+    display: flex;
+    color: #ECECEC;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 32px;
+    align-items: center;
+}
+
+
+.hedClass a {
+    align-items: center;
+    color: #ECECEC;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttonClass {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+
+
+.appClass {
+    color: #0B081C;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid #ECECEC;
+    background: #ECECEC;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.talkClass {
+    color: #ECECEC;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #ECECEC;
+    background-color: #0B081C;
+    cursor: pointer;
+}
+
+
+
+.logoClass {
+    width: 100%;
+}
+
+
+/* main */
+
+
+.mainClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 170px;
+}
+
+.mainstartsClass {
+    color: #F2F4F8;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9.905px 19.811px;
+    border-radius: 61.909px;
+    border: 1.238px solid rgba(255, 255, 255, 0.30);
+}
+
+.maincenterClass {
+    color: #F2F4F8;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 671px;
+    width: 100%;
+
+}
+
+
+.mainendClass {
+    color: rgba(236, 236, 236, 0.65);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 450px;
+    width: 100%;
+}
+
+.talksClass {
+    color: #ECECEC;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #ECECEC;
+    background: #2d0c76;
+    cursor: pointer;
+}
+
+
+/*  */
+
+
+.mainoneClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+    margin-top: 140px;
+}
+
+
+.mainpClass {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.imgClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.imagesClass {
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+/*  */
+
+
+.maintwoClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 94px;
+}
+
+#features_box {
+    display: flex;
+    max-width: 357px;
+    width: 100%;
+    text-align: center;
+    color: #ECECEC;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+
+#check_box {
+    display: flex;
+    color: #ECECEC;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 370px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+
+/*  */
+
+
+.containerClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 104px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.contClass {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px -2px 10px 0px rgba(233, 223, 255, 0.30), 0px -2px 40px 0px rgba(187, 155, 255, 0.15), 0px 0.5px 0px 0px rgba(255, 255, 255, 0.50) inset;
+}
+
+
+
+
+.analyticsClass {
+    margin-top: 16px;
+    color: #ECECEC;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.ourClass {
+    max-width: 350px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ECECEC;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.viewClass {
+    margin-top: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+
+/*  */
+
+
+.mainsecondClass {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px -2px 10px 0px rgba(233, 223, 255, 0.30), 0px -2px 40px 0px rgba(187, 155, 255, 0.15), 0px 0.5px 0px 0px rgba(255, 255, 255, 0.50) inset;
+
+}
+
+
+.svgClass {
+    display: flex;
+}
